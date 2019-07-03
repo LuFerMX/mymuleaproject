@@ -31,7 +31,7 @@
 	                    <username>lbarriosiw</username>
 	                    <password>Acceso2019#</password>
 <!-- 	                    <applicationName>${cloudhub.application.name}</applicationName> -->
-	                    <applicationName>${project.artifactId}-${project.version}</applicationName>
+	                    <applicationName>${project.artifactId}</applicationName>
 <!-- 		            	<environment>${environment}</environment> -->
 	                    <environment>Sandbox</environment>
 	                    <workerType>Micro</workerType>
