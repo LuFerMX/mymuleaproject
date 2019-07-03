@@ -25,16 +25,16 @@
                 <configuration>
                 	<cloudHubDeployment>
 			            <uri>https://anypoint.mulesoft.com</uri>
-<!-- 	                    <deploymentType>cloudhub</deploymentType> -->
+	                    <deploymentType>cloudhub</deploymentType>
 			            <muleVersion>${app.runtime}</muleVersion>
 <!-- 	                    <muleVersion>${mule.version}</muleVersion> -->
 	                    <username>lbarriosiw</username>
 	                    <password>Acceso2019#</password>
 	                    <applicationName>${cloudhub.application.name}</applicationName>
-		            	<environment>${environment}</environment>
+<!-- 		            	<environment>${environment}</environment> -->
+	                    <environment>Sandbox</environment>
 	                    <workerType>MICRO</workerType>
 <!-- 	                    <redeploy>true</redeploy> -->
-<!-- 	                    <environment>SANDBOX</environment> -->
                     </cloudHubDeployment>
                 </configuration>
                 <executions>
