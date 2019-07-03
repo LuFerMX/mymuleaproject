@@ -23,7 +23,7 @@
                 <artifactId>mule-maven-plugin</artifactId>
                 <version>2.0</version>
                 <configuration>
-                	<cloudHubDeployment>
+<!--                 	<cloudHubDeployment> -->
 			            <uri>https://anypoint.mulesoft.com</uri>
 	                    <deploymentType>cloudhub</deploymentType>
 			            <muleVersion>${app.runtime}</muleVersion>
@@ -34,8 +34,8 @@
 <!-- 		            	<environment>${environment}</environment> -->
 	                    <environment>Sandbox</environment>
 	                    <workerType>MICRO</workerType>
-<!-- 	                    <redeploy>true</redeploy> -->
-                    </cloudHubDeployment>
+	                    <redeploy>true</redeploy>
+<!--                     </cloudHubDeployment> -->
                 </configuration>
                 <executions>
                     <execution>
