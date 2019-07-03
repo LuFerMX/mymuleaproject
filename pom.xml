@@ -30,7 +30,8 @@
 	                    <muleVersion>${mule.version}</muleVersion>
 	                    <username>lbarriosiw</username>
 	                    <password>Acceso2019#</password>
-	                    <applicationName>${cloudhub.application.name}</applicationName>
+<!-- 	                    <applicationName>${cloudhub.application.name}</applicationName> -->
+	                    <applicationName>${project.artifactId}-${project.version}</applicationName>
 <!-- 		            	<environment>${environment}</environment> -->
 	                    <environment>Sandbox</environment>
 	                    <workerType>Micro</workerType>
