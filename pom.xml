@@ -28,8 +28,8 @@
 	                    <deploymentType>cloudhub</deploymentType>
 <!-- 			            <muleVersion>${app.runtime}</muleVersion> -->
 	                    <muleVersion>${mule.version}</muleVersion>
-	                    <username>lbarriosiw</username>
-	                    <password>Acceso2019#</password>
+	                    <username>AnyTest0101</username>
+	                    <password>P455work#</password>
 <!-- 	                    <applicationName>${cloudhub.application.name}</applicationName> -->
 	                    <applicationName>${project.artifactId}-dev</applicationName>
 <!-- 		            	<environment>${environment}</environment> -->
